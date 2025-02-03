@@ -1,0 +1,11 @@
+#studio-card {
+    background-color: rgb(170, 100, 235);
+    border-radius: 1em;
+    box-shadow: black;
+    margin: auto;
+}
+
+img {
+    max-width: 5rem;
+    max-height: 1rem;
+}
