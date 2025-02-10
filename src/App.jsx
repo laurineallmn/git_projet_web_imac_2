@@ -10,10 +10,12 @@ export default function App(){
   // const data = danceStudiosDataset
   return (
     <div id="dance-studio-gallery">
-      <p>Danse</p>
-      <div id="studio-card">
-        {danceStudiosDataset.map((studio)=>(
+      <h1>Danse</h1>
+      {danceStudiosDataset.map((studio)=>(
+      // <div id="studio-card">
+        
         <StudioCard
+        key={studio.id}
         photo={studio.logoUrl}
         name={studio.name} //nom="LAX Studio"  //pour un dictionnaire direct dans App.jsx : nom={data[0].name}
         adress={studio.address}
@@ -21,9 +23,11 @@ export default function App(){
         country={studio.country}   //ville="Paris"
         price_course={studio.singleClassPrice}
         danseStyles={studio.danceStyles}
+        // mapGoogle = {studio.mapGoogle}
         />
-        ))}
-      </div>
+       
+      // </div> 
+      ))}
     </div>
   );
 }

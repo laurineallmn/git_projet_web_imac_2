@@ -123,13 +123,15 @@ export default [
     {
         id: 11,
         name: "Lax Studio",
-        logoUrl: "https://laxstudio.fr/wp-content/uploads/2021/lax-logo.png",
+        logoUrl: "https://play-lh.googleusercontent.com/TnezLcP-VM-eQSmsREwYFIrM7-eKFM2S9BqRjoqV6SdbrZ0GG6uO4-TRAnCa6_1YauE",
         dateCreated: 2012,
         address: "74 Avenue Philippe Auguste",
         city: "Paris",
         country: "France",
         singleClassPrice: "18€",
-        danceStyles: ["Hip Hop", "House", "Popping", "Locking"]
+        danceStyles: ["Hip Hop", "House", "Popping", "Locking"],
+        // mapGoogle: "https://maps.google.com/maps?q=LAX+Dance+Studio%2C+Paris&t=&z=13&ie=UTF8&iwloc=&output=embed"
+
     },
     {
         id: 12,
