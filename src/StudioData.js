@@ -117,7 +117,7 @@ export default [
         address: "5 Passage des Taillandiers",
         city: "Paris",
         country: "France",
-        singleClassPrice: "20€",
+        singleClassPrice: "18€",
         danceStyles: ["Contemporary", "Jazz", "Hip Hop", "Ballet"]
     },
     {
@@ -128,7 +128,7 @@ export default [
         address: "74 Avenue Philippe Auguste",
         city: "Paris",
         country: "France",
-        singleClassPrice: "18€",
+        singleClassPrice: "15€",
         danceStyles: ["Hip Hop", "House", "Popping", "Locking"],
         // mapGoogle: "https://maps.google.com/maps?q=LAX+Dance+Studio%2C+Paris&t=&z=13&ie=UTF8&iwloc=&output=embed"
 
