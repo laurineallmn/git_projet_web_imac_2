@@ -1,11 +1,14 @@
 import StudioCard from './components/StudioCard.jsx'
 import Header from './components/header.jsx'
 import './App.css'
-import danceStudiosDataset from './StudioData.js'
+import danceStudiosDataset from './studiodata.js'
+import getItems from './services/api.js'
+import {useState} from "react";
 
 // export default function App() {
 //   return <main>Hello World</main>
 // }
+getItems()
 
 export default function App(){
   // const data = danceStudiosDataset
@@ -22,11 +25,13 @@ export default function App(){
           key={studio.id}
           photo={studio.logoUrl}
           name={studio.name} //nom="LAX Studio"  //pour un dictionnaire direct dans App.jsx : nom={data[0].name}
-          danseStyles={studio.danceStyles}
-          priceCourse={studio.singleClassPrice}
-          adress={studio.address}
           city={studio.city}
           country={studio.country}   //ville="Paris"
+          danseStyles={studio.danceStyles}
+          priceCourse={studio.singleClassPrice}
+          // website=
+          address={studio.address}
+          
           
           // mapGoogle = {studio.mapGoogle}
           />

@@ -1,612 +1,262 @@
 export default [
-    // Australia
+    // France
     {
         id: 1,
-        name: "Sydney Dance Company Studios",
-        logoUrl: "https://www.sydneydancecompany.com/wp-content/uploads/2019/01/Sydney-Dance-Company-Logo.png",
-        dateCreated: 1969,
-        address: "The Wharf, Pier 4/5 Hickson Road",
-        city: "Sydney",
-        country: "Australia",
-        singleClassPrice: "AU$25",
-        danceStyles: ["Contemporary", "Ballet", "Jazz", "Hip Hop"]
+        name: "Lax Studio",
+        logoUrl: "../logo_studio/lax_studio.png",
+        address: "10 Rue de la Fontaine au Roi, 75011 Paris, France",
+        city: "Paris",
+        country: "France",
+        singleClassPrice: "15€",
+        danceStyles: ["Hip-hop", "Breakdance", "House", "Afro", "Street-Jazz", "Dance Hall", "Heals"],
+        instagram: "https://www.instagram.com/laxstudio/",
+        website: "https://www.laxstudio.fr/"
     },
     {
         id: 2,
-        name: "Dance Domain",
-        logoUrl: "https://dancedomain.com.au/wp-content/uploads/2020/01/dance-domain-logo.jpg",
-        dateCreated: 2005,
-        address: "460 Church Street",
-        city: "Melbourne",
-        country: "Australia",
-        singleClassPrice: "AU$22",
-        danceStyles: ["Hip Hop", "Commercial", "Contemporary", "Heels"]
+        name: "Studio Harmonic",
+        logoUrl: "../logo_studio/studio_harmonic.png",
+        address: "5 Passage des Taillandiers, 75011 Paris, France",
+        city: "Paris",
+        country: "France",
+        singleClassPrice: "18€",
+        danceStyles: ["Contemporary", "Ballet", "Jazz", "Hip-hop", "Afro", "Street-Jazz", "Dance Hall", "Heals"],
+        instagram: "https://www.instagram.com/studioharmonic/",
+        website: "https://www.studioharmonic.fr/"
     },
-
-    // Belgium
     {
         id: 3,
-        name: "B.DANCE Brussels",
-        logoUrl: "https://bdance.be/wp-content/uploads/2021/03/bdance-logo.png",
-        dateCreated: 2012,
-        address: "Rue de la Caserne 33",
-        city: "Brussels",
-        country: "Belgium",
-        singleClassPrice: "15€",
-        danceStyles: ["Hip Hop", "House", "Contemporary", "Ballet"]
-    },
-
-    // Brazil
-    {
-        id: 4,
-        name: "Focus Cia de Dança",
-        logoUrl: "https://focusciadedanca.com/images/logo-focus.png",
-        dateCreated: 1997,
-        address: "Rua Barão da Torre, 308",
-        city: "Rio de Janeiro",
-        country: "Brazil",
-        singleClassPrice: "45 BRL",
-        danceStyles: ["Contemporary", "Brazilian Dance", "Modern"]
-    },
-    {
-        id: 5,
-        name: "Casa de Dança Carlinhos de Jesus",
-        logoUrl: "https://casadedanca.com.br/wp-content/uploads/2019/logo-cdj.png",
-        dateCreated: 1990,
-        address: "Rua Álvaro Ramos, 11",
-        city: "Rio de Janeiro",
-        country: "Brazil",
-        singleClassPrice: "40 BRL",
-        danceStyles: ["Samba", "Contemporary", "Jazz", "Brazilian Funk"]
-    },
-
-    // Canada
-    {
-        id: 6,
-        name: "The Underground Dance Centre",
-        logoUrl: "https://underground-dance.ca/wp-content/uploads/2020/logo-udc.png",
-        dateCreated: 2008,
-        address: "220 Richmond St W",
-        city: "Toronto",
-        country: "Canada",
-        singleClassPrice: "CA$20",
-        danceStyles: ["Hip Hop", "House", "Breaking", "Waacking"]
-    },
-    {
-        id: 7,
-        name: "Harbour Dance Centre",
-        logoUrl: "https://harbourdance.com/wp-content/uploads/2019/harbour-dance-logo.png",
-        dateCreated: 1985,
-        address: "927 Granville Street",
-        city: "Vancouver",
-        country: "Canada",
-        singleClassPrice: "CA$18",
-        danceStyles: ["Jazz", "Contemporary", "Hip Hop", "Ballet"]
-    },
-
-    // China
-    {
-        id: 8,
-        name: "TAI Dance Studio",
-        logoUrl: "https://www.taidance.cn/images/logo-tai.png",
-        dateCreated: 2015,
-        address: "No. 108 Jinbao Street",
-        city: "Beijing",
-        country: "China",
-        singleClassPrice: "150 CNY",
-        danceStyles: ["Contemporary", "Chinese Classical", "Hip Hop", "Jazz"]
-    },
-    {
-        id: 9,
-        name: "MDC Shanghai",
-        logoUrl: "https://mdc-shanghai.com/wp-content/uploads/2021/mdc-logo.png",
-        dateCreated: 2018,
-        address: "789 Huaihai Road",
-        city: "Shanghai",
-        country: "China",
-        singleClassPrice: "180 CNY",
-        danceStyles: ["Urban", "Contemporary", "Jazz", "K-Pop"]
-    },
-
-    // France
-    {
-        id: 10,
-        name: "Studio Harmonic",
-        logoUrl: "https://studioharmonic.fr/wp-content/uploads/2020/logo-harmonic.png",
-        dateCreated: 1990,
-        address: "5 Passage des Taillandiers",
+        name: "Dancefloor Paris",
+        logoUrl: "../logo_studio/dancefloor_studio.png",
+        address: "20 Rue de l'Échiquier, 75010 Paris, France",
         city: "Paris",
         country: "France",
         singleClassPrice: "18€",
-        danceStyles: ["Contemporary", "Jazz", "Hip Hop", "Ballet"]
-    },
-    {
-        id: 11,
-        name: "Lax Studio",
-        logoUrl: "https://play-lh.googleusercontent.com/TnezLcP-VM-eQSmsREwYFIrM7-eKFM2S9BqRjoqV6SdbrZ0GG6uO4-TRAnCa6_1YauE",
-        dateCreated: 2012,
-        address: "74 Avenue Philippe Auguste",
-        city: "Paris",
-        country: "France",
-        singleClassPrice: "15€",
-        danceStyles: ["Hip Hop", "House", "Popping", "Locking"],
-        // mapGoogle: "https://maps.google.com/maps?q=LAX+Dance+Studio%2C+Paris&t=&z=13&ie=UTF8&iwloc=&output=embed"
-
-    },
-    {
-        id: 12,
-        name: "Centre de Danse du Marais",
-        logoUrl: "https://centre-de-danse.com/wp-content/uploads/2019/logo-cdm.png",
-        dateCreated: 1982,
-        address: "41 Rue du Temple",
-        city: "Paris",
-        country: "France",
-        singleClassPrice: "22€",
-        danceStyles: ["Ballet", "Jazz", "Contemporary", "African"]
-    },
-
-    // Germany
-    {
-        id: 13,
-        name: "Flying Steps Academy",
-        logoUrl: "https://flying-steps.de/wp-content/uploads/2020/fs-academy-logo.png",
-        dateCreated: 2007,
-        address: "Revaler Str. 99",
-        city: "Berlin",
-        country: "Germany",
-        singleClassPrice: "15€",
-        danceStyles: ["Breaking", "Hip Hop", "House"]
-    },
-    {
-        id: 14,
-        name: "Tanzfabrik Berlin",
-        logoUrl: "https://tanzfabrik-berlin.de/wp-content/uploads/2021/tanzfabrik-logo.png",
-        dateCreated: 1978,
-        address: "Möckernstraße 68",
-        city: "Berlin",
-        country: "Germany",
-        singleClassPrice: "16€",
-        danceStyles: ["Contemporary", "Contact Improv", "Modern"]
-    },
-
-    // Italy
-    {
-        id: 15,
-        name: "MTS Movement",
-        logoUrl: "https://mtsmovement.it/wp-content/uploads/2020/mts-logo.png",
-        dateCreated: 2010,
-        address: "Via Domenico Scarlatti 27",
-        city: "Milan",
-        country: "Italy",
-        singleClassPrice: "18€",
-        danceStyles: ["Hip Hop", "House", "Contemporary", "Commercial"]
-    },
-    {
-        id: 16,
-        name: "IALS Roma",
-        logoUrl: "https://ials.org/wp-content/uploads/2019/ials-logo.png",
-        dateCreated: 1960,
-        address: "Via Cesare Fracassini 60",
-        city: "Rome",
-        country: "Italy",
-        singleClassPrice: "15€",
-        danceStyles: ["Jazz", "Contemporary", "Modern", "Classical"]
-    },
-
-    // Japan
-    {
-        id: 17,
-        name: "Studio Arc",
-        logoUrl: "https://studio-arc.jp/wp-content/uploads/2021/arc-logo.png",
-        dateCreated: 1999,
-        address: "3 Chome-1-25 Shibuya",
-        city: "Tokyo",
-        country: "Japan",
-        singleClassPrice: "¥3000",
-        danceStyles: ["Jazz", "Hip Hop", "K-Pop", "House"]
-    },
-    {
-        id: 18,
-        name: "Almighty",
-        logoUrl: "https://almighty.jp/wp-content/uploads/2020/almighty-logo.png",
-        dateCreated: 2010,
-        address: "2-11-1 Meguro",
-        city: "Tokyo",
-        country: "Japan",
-        singleClassPrice: "¥3500",
-        danceStyles: ["Hip Hop", "House", "Lock", "Pop"]
-    },
-    {
-        id: 19,
-        name: "Dance Studio Natural",
-        logoUrl: "https://natural-dance.jp/images/logo-natural.png",
-        dateCreated: 2005,
-        address: "1-23-45 Namba",
-        city: "Osaka",
-        country: "Japan",
-        singleClassPrice: "¥2800",
-        danceStyles: ["Jazz", "Ballet", "Contemporary", "Hip Hop"]
-    },
-
-    // Korea
-    {
-        id: 20,
-        name: "1MILLION Dance Studio",
-        logoUrl: "https://1milliondance.com/wp-content/uploads/2020/1million-logo.png",
-        dateCreated: 2014,
-        address: "358-24 Seogyo-dong",
-        city: "Seoul",
-        country: "Korea",
-        singleClassPrice: "₩30000",
-        danceStyles: ["K-Pop", "Hip Hop", "Urban", "Jazz"]
-    },
-    {
-        id: 21,
-        name: "PREP Dance Studio",
-        logoUrl: "https://prepstudio.kr/wp-content/uploads/2021/prep-logo.png",
-        dateCreated: 2016,
-        address: "42 Wausan-ro",
-        city: "Seoul",
-        country: "Korea",
-        singleClassPrice: "₩35000",
-        danceStyles: ["K-Pop", "Hip Hop", "Urban", "Contemporary"]
-    },
-
-    // Netherlands
-    {
-        id: 22,
-        name: "Amsterdam Dance Centre",
-        logoUrl: "https://amsterdamdancecentre.nl/wp-content/uploads/2019/adc-logo.png",
-        dateCreated: 1995,
-        address: "Marnixstraat 342",
-        city: "Amsterdam",
-        country: "Netherlands",
-        singleClassPrice: "17€",
-        danceStyles: ["Contemporary", "Jazz", "Urban", "Modern"]
-    },
-
-    {
-        id: 23,
-        name: "House of Urban Arts",
-        logoUrl: "https://houseofurbanarts.nl/wp-content/uploads/2020/hua-logo.png",
-        dateCreated: 2013,
-        address: "Isolatorweg 4",
-        city: "Amsterdam",
-        country: "Netherlands",
-        singleClassPrice: 15,
-        danceStyles: ["Hip Hop", "House", "Breaking", "Popping"]
-    },
-
-    // // Russia
-    // {
-    //     id: 24,
-    //     name: "PROFI Dance School",
-    //     logoUrl: "https://profidance.ru/wp-content/uploads/2020/profi-logo.png",
-    //     dateCreated: 2008,
-    //     address: "Bolshaya Novodmitrovskaya St, 36",
-    //     city: "Moscow",
-    //     country: "Russia",
-    //     singleClassPrice: 1200,
-    //     danceStyles: ["Contemporary", "Hip Hop", "House", "Breaking"]
-    // },
-    // {
-    //     id: 25,
-    //     name: "Model-357",
-    //     logoUrl: "https://model-357.ru/wp-content/uploads/2021/model357-logo.png",
-    //     dateCreated: 2005,
-    //     address: "Ligovsky Prospekt 270",
-    //     city: "Saint Petersburg",
-    //     country: "Russia",
-    //     singleClassPrice: 1000,
-    //     danceStyles: ["Hip Hop", "Contemporary", "Jazz", "Breaking"]
-    // },
-
-    // // Singapore
-    // {
-    //     id: 26,
-    //     name: "O School",
-    //     logoUrl: "https://o-school.com/wp-content/uploads/2020/oschool-logo.png",
-    //     dateCreated: 2006,
-    //     address: "111 Middle Road",
-    //     city: "Singapore",
-    //     country: "Singapore",
-    //     singleClassPrice: 35,
-    //     danceStyles: ["Hip Hop", "Urban", "K-Pop", "Contemporary"]
-    // },
-    // {
-    //     id: 27,
-    //     name: "Recognize Studios",
-    //     logoUrl: "https://recognize.sg/wp-content/uploads/2019/recognize-logo.png",
-    //     dateCreated: 2010,
-    //     address: "21 Tanjong Pagar Road",
-    //     city: "Singapore",
-    //     country: "Singapore",
-    //     singleClassPrice: 30,
-    //     danceStyles: ["Hip Hop", "Breaking", "Popping", "House"]
-    // },
-
-    // // Spain
-    // {
-    //     id: 28,
-    //     name: "Barceloneta Dance Studio",
-    //     logoUrl: "https://barcelonetadance.es/wp-content/uploads/2020/bds-logo.png",
-    //     dateCreated: 2015,
-    //     address: "Carrer de la Maquinista 12",
-    //     city: "Barcelona",
-    //     country: "Spain",
-    //     singleClassPrice: 15,
-    //     danceStyles: ["Contemporary", "Urban", "Flamenco", "Jazz"]
-    // },
-    // {
-    //     id: 29,
-    //     name: "Escuela Karen Taft",
-    //     logoUrl: "https://karentaft.es/wp-content/uploads/2021/kt-logo.png",
-    //     dateCreated: 1975,
-    //     address: "Calle de Libertad 25",
-    //     city: "Madrid",
-    //     country: "Spain",
-    //     singleClassPrice: 18,
-    //     danceStyles: ["Ballet", "Contemporary", "Jazz", "Modern"]
-    // },
-
-    // // Sweden
-    // {
-    //     id: 30,
-    //     name: "House of Shapes",
-    //     logoUrl: "https://houseofshapes.se/wp-content/uploads/2020/hos-logo.png",
-    //     dateCreated: 2012,
-    //     address: "Västmannagatan 56",
-    //     city: "Stockholm",
-    //     country: "Sweden",
-    //     singleClassPrice: 180,
-    //     danceStyles: ["Hip Hop", "House", "Voguing", "Contemporary"]
-    // },
-    // {
-    //     id: 31,
-    //     name: "Balettakademien Stockholm",
-    //     logoUrl: "https://balettakademien.se/wp-content/uploads/2019/ba-logo.png",
-    //     dateCreated: 1957,
-    //     address: "Birger Jarlsgatan 70",
-    //     city: "Stockholm",
-    //     country: "Sweden",
-    //     singleClassPrice: 200,
-    //     danceStyles: ["Ballet", "Jazz", "Contemporary", "Modern"]
-    // },
-
-    // // United Kingdom
-    // {
-    //     id: 32,
-    //     name: "Pineapple Dance Studios",
-    //     logoUrl: "https://pineapple.uk/wp-content/uploads/2020",
-    // },
-    // Suite du dataset avec les symboles monétaires ajoutés
-    // South Africa
-    {
-        id: 33,
-        name: "Dance Space Studios",
-        logoUrl: "https://dancespacestudios.co.za/wp-content/uploads/2021/logo-dss.png",
-        dateCreated: 2008,
-        address: "76 Juta Street, Braamfontein",
-        city: "Johannesburg",
-        country: "South Africa",
-        singleClassPrice: "R150",
-        danceStyles: ["African Contemporary", "Hip Hop", "Gumboot", "Urban"]
-    },
-    {
-        id: 34,
-        name: "Cape Academy of Dance",
-        logoUrl: "https://capeacademyofdance.co.za/wp-content/uploads/2020/cad-logo.png",
-        dateCreated: 1995,
-        address: "160 Sir Lowry Road",
-        city: "Cape Town",
-        country: "South Africa",
-        singleClassPrice: "R120",
-        danceStyles: ["Contemporary", "African Dance", "Modern", "Jazz"]
-    },
-
-    // Mexico
-    {
-        id: 35,
-        name: "DANCELAB MX",
-        logoUrl: "https://dancelab.mx/wp-content/uploads/2021/dancelab-logo.png",
-        dateCreated: 2015,
-        address: "Av. Álvaro Obregón 298",
-        city: "Mexico City",
-        country: "Mexico",
-        singleClassPrice: "$250 MXN",
-        danceStyles: ["Latin Urban", "Hip Hop", "Contemporary", "Reggaeton"]
-    },
-    {
-        id: 36,
-        name: "Academia de Danza Fura",
-        logoUrl: "https://furadanza.mx/wp-content/uploads/2020/fura-logo.png",
-        dateCreated: 2010,
-        address: "Calle Mérida 135",
-        city: "Mexico City",
-        country: "Mexico",
-        singleClassPrice: "$200 MXN",
-        danceStyles: ["Contemporary", "Urban", "Latin Jazz", "Modern"]
-    },
-
-    // Argentina
-    {
-        id: 37,
-        name: "Estudio DANCE NOW",
-        logoUrl: "https://dancenow.com.ar/wp-content/uploads/2021/dancenow-logo.png",
-        dateCreated: 2012,
-        address: "Av. Corrientes 1458",
-        city: "Buenos Aires",
-        country: "Argentina",
-        singleClassPrice: "$800 ARS",
-        danceStyles: ["Contemporary", "Urban", "Latin Fusion", "Jazz"]
-    },
-
-    // Israel
-    {
-        id: 38,
-        name: "Ga-Ga Movement Studio",
-        logoUrl: "https://gagamovement.com/wp-content/uploads/2020/gaga-logo.png",
-        dateCreated: 2005,
-        address: "Suzanne Dellal Centre, Yehieli St 5",
-        city: "Tel Aviv",
-        country: "Israel",
-        singleClassPrice: "₪65",
-        danceStyles: ["Gaga", "Contemporary", "Modern", "Improvisation"]
-    },
-
-    // Thailand
-    {
-        id: 39,
-        name: "D Dance Academy",
-        logoUrl: "https://ddance.co.th/wp-content/uploads/2021/ddance-logo.png",
-        dateCreated: 2013,
-        address: "Siam Square Soi 2",
-        city: "Bangkok",
-        country: "Thailand",
-        singleClassPrice: "฿500",
-        danceStyles: ["K-Pop", "Hip Hop", "Urban", "Contemporary"]
-    },
-
-    // Philippines
-    {
-        id: 40,
-        name: "Movement Dance Studio",
-        logoUrl: "https://movementdanceph.com/wp-content/uploads/2020/mds-logo.png",
-        dateCreated: 2014,
-        address: "The Portal, Greenfield District",
-        city: "Manila",
-        country: "Philippines",
-        singleClassPrice: "₱500",
-        danceStyles: ["Hip Hop", "Urban", "Contemporary", "K-Pop"]
-    },
-
-    // Greece
-    {
-        id: 41,
-        name: "DanceWorks Athens",
-        logoUrl: "https://danceworks.gr/wp-content/uploads/2021/dw-logo.png",
-        dateCreated: 2009,
-        address: "Mavromichali 121",
-        city: "Athens",
-        country: "Greece",
-        singleClassPrice: "15€",
-        danceStyles: ["Contemporary", "Modern", "Urban", "Greek Folk Fusion"]
-    },
-
-    // Poland
-    {
-        id: 42,
-        name: "Egurrola Dance Studio",
-        logoUrl: "https://egurrola.pl/wp-content/uploads/2020/eds-logo.png",
-        dateCreated: 1991,
-        address: "ul. Żurawia 45",
-        city: "Warsaw",
-        country: "Poland",
-        singleClassPrice: "50zł",
-        danceStyles: ["Jazz", "Contemporary", "Hip Hop", "Modern"]
-    },
-
-    // Portugal
-    {
-        id: 43,
-        name: "Jazzy Dance Studios",
-        logoUrl: "https://jazzydance.pt/wp-content/uploads/2021/jazzy-logo.png",
-        dateCreated: 2007,
-        address: "Rua do Crucifixo 42",
-        city: "Lisbon",
-        country: "Portugal",
-        singleClassPrice: "12€",
-        danceStyles: ["Contemporary", "Urban", "Jazz", "African Fusion"]
-    },
-
-    // Denmark
-    {
-        id: 44,
-        name: "Copenhagen Dance Space",
-        logoUrl: "https://copenhagendance.dk/wp-content/uploads/2020/cds-logo.png",
-        dateCreated: 2011,
-        address: "Valdemarsgade 14",
-        city: "Copenhagen",
-        country: "Denmark",
-        singleClassPrice: "120kr",
-        danceStyles: ["Contemporary", "Modern", "Hip Hop", "Experimental"]
-    },
-
-    // Norway
-    {
-        id: 45,
-        name: "Flow Dance Academy",
-        logoUrl: "https://flowdance.no/wp-content/uploads/2021/flow-logo.png",
-        dateCreated: 2013,
-        address: "Torggata 16",
-        city: "Oslo",
-        country: "Norway",
-        singleClassPrice: "190kr",
-        danceStyles: ["Urban", "Contemporary", "Breaking", "House"]
-    },
-
-    // Finland
-    {
-        id: 46,
-        name: "Saiffa Dance Studio",
-        logoUrl: "https://saiffa.fi/wp-content/uploads/2020/saiffa-logo.png",
-        dateCreated: 2010,
-        address: "Eerikinkatu 44",
-        city: "Helsinki",
-        country: "Finland",
-        singleClassPrice: "18€",
-        danceStyles: ["Hip Hop", "House", "Breaking", "Contemporary"]
-    },
-
-    // Hungary
-    {
-        id: 47,
-        name: "Budapest Dance Theater",
-        logoUrl: "https://budapestdance.hu/wp-content/uploads/2021/bdt-logo.png",
-        dateCreated: 1998,
-        address: "Gizella út 59",
-        city: "Budapest",
-        country: "Hungary",
-        singleClassPrice: "3500Ft",
-        danceStyles: ["Contemporary", "Modern", "Urban", "Folk Fusion"]
+        danceStyles: ["Hip-hop", "Contemporary", "Ballet", "Jazz"],
+        instagram: "https://www.instagram.com/dancefloorparis/",
+        website: "https://www.dancefloor.fr/"
     },
 
     // Czech Republic
     {
-        id: 48,
+        id: 4,
         name: "Dance Perfect",
-        logoUrl: "https://danceperfect.cz/wp-content/uploads/2020/dp-logo.png",
-        dateCreated: 2004,
-        address: "Národní 961/25",
+        logoUrl: "../logo_studio/dance_perfect_studio.jpeg",
+        address: "Národní 25, 110 00 Prague, Czech Republic",
         city: "Prague",
         country: "Czech Republic",
-        singleClassPrice: "250Kč",
-        danceStyles: ["Contemporary", "Jazz", "Hip Hop", "Modern"]
+        singleClassPrice: "250 CZK",
+        danceStyles: ["Hip-hop", "Salsa", "Ballet", "Modern dance"],
+        instagram: "https://www.instagram.com/danceperfectprague/",
+        website: "https://www.danceperfect.cz/"
+    },
+    {
+        id: 5,
+        name: "Harmony Dance",
+        logoUrl: "../logo_studio/harmony_studio.png",
+        address: "Dlouhá 33, 110 00 Prague, Czech Republic",
+        city: "Prague",
+        country: "Czech Republic",
+        singleClassPrice: "230 CZK",
+        danceStyles: ["Ballet", "Jazz", "Hip-hop", "Contemporary"],
+        instagram: "https://www.instagram.com/harmonydanceprague/",
+        website: "https://www.harmonydance.cz/"
     },
 
-    // India
+    // Germany
     {
-        id: 49,
-        name: "Danceworx Academy",
-        logoUrl: "https://thedanceworx.com/wp-content/uploads/2021/danceworx-logo.png",
-        dateCreated: 2003,
-        address: "B-145 Okhla Phase 1",
-        city: "New Delhi",
-        country: "India",
-        singleClassPrice: "₹800",
-        danceStyles: ["Bollywood", "Contemporary", "Hip Hop", "Jazz"]
+        id: 6,
+        name: "Tanzgeist Karlsruhe",
+        logoUrl: "../logo_studio/tanzgeist_karlsruhe_studio.png",
+        address: "Ludwig-Erhard-Allee 3, 76131 Karlsruhe, Germany",
+        city: "Karlsruhe",
+        country: "Germany",
+        singleClassPrice: "15€",
+        danceStyles: ["Hip-hop", "Jazz", "Ballet", "Contemporary"],
+        instagram: "https://www.instagram.com/tanzgeistkarlsruhe/",
+        website: "https://www.tanzgeist.de/"
+    },
+    {
+        id: 7,
+        name: "Flying Steps Academy",
+        logoUrl: "../logo_studio/flying_steps_academy_studio.png",
+        address: "Berlin, Germany",
+        city: "Berlin",
+        country: "Germany",
+        singleClassPrice: "25€",
+        danceStyles: ["Breakdance", "Hip-hop", "Popping"],
+        instagram: "https://www.instagram.com/flyingstepsacademy/",
+        website: "https://www.flyingstepsacademy.com/"
+    },
+    // China
+    {
+        id: 8,
+        name: "One Million Studio",
+        logoUrl: "../logo_studio/1million_studio.png",
+        city: "Shanghai",
+        country: "China",
+        danceStyles: ["Hip-hop", "Urban dance"],
+        singleClassPrice: "120¥",
+        instagram: "https://www.instagram.com/onemilliondance/",
+        website: "https://www.onemilliondance.com/",
+        address: "Shanghai, China",
+        googleMapLink: "https://www.google.com/maps/place/One+Million+Dance+Studio"
+    },
+    {
+        id: 9,
+        name: "Phoenix Dance Studio",
+        logoUrl: "../logo_studio/phoenix_dance_studio.png",
+        city: "Beijing",
+        country: "China",
+        danceStyles: ["Hip-hop", "K-Pop", "Contemporary"],
+        singleClassPrice: "100¥",
+        instagram: "https://www.instagram.com/phenixdancestudio/",
+        website: "https://www.phenixdancestudio.com/",
+        address: "Beijing, China",
+        googleMapLink: "https://www.google.com/maps/place/Phenix+Dance+Studio"
     },
 
-    // UAE
+    // USA
     {
-        id: 50,
-        name: "Sharmila Dance Hub",
-        logoUrl: "https://sharmiladance.ae/wp-content/uploads/2020/sdh-logo.png",
-        dateCreated: 2016,
-        address: "Al Quoz Creative Zone",
-        city: "Dubai",
-        country: "United Arab Emirates",
-        singleClassPrice: "100د.إ",
-        danceStyles: ["Urban", "Contemporary", "Bollywood", "Middle Eastern Fusion"]
+        id: 10,
+        name: "The Playground LA",
+        logoUrl: "../logo_studio/playground_LA_studio.png",
+        city: "Los Angeles",
+        country: "USA",
+        danceStyles: ["Hip-hop", "Commercial", "Freestyle"],
+        singleClassPrice: "$25",
+        instagram: "https://www.instagram.com/theplaygroundla/",
+        website: "https://www.theplaygroundla.com/",
+        address: "Los Angeles, CA, USA",
+        googleMapLink: "https://www.google.com/maps/place/The+Playground+LA"
+    },
+    {
+        id: 11,
+        name: "Millennium Dance Complex",
+        logoUrl: "../logo_studio/millenium_dance_complex_studio.jpg",
+        city: "Los Angeles",
+        country: "USA",
+        danceStyles: ["Hip-hop", "Jazz", "Contemporary", "K-Pop"],
+        singleClassPrice: "$30",
+        instagram: "https://www.instagram.com/mdcdance/",
+        website: "https://www.mdcdance.com/",
+        address: "Los Angeles, CA, USA",
+        googleMapLink: "https://www.google.com/maps/place/Millennium+Dance+Complex"
+    },
+    // Germany
+    {
+        id: 12,
+        name: "Flying Steps Academy",
+        logoUrl: "../logo_studio/flying_steps_academy_studio.png",
+        city: "Berlin",
+        country: "Germany",
+        danceStyles: ["Breakdance", "Hip-hop", "Popping"],
+        singleClassPrice: "25€",
+        instagram: "https://www.instagram.com/flyingstepsacademy/",
+        website: "https://www.flyingstepsacademy.com/",
+        address: "Berlin, Germany",
+        googleMapLink: "https://www.google.com/maps/place/Flying+Steps+Academy"
+    },
+
+    // USA
+    {
+        id: 13,
+        name: "Broadway Dance Center",
+        logoUrl: "../logo_studio/broadway_dance_center_studio.png",
+        city: "New York",
+        country: "USA",
+        danceStyles: ["Hip-hop", "Ballet", "Jazz", "Tap Dance"],
+        singleClassPrice: "$22",
+        instagram: "https://www.instagram.com/bdcdance/",
+        website: "https://www.broadwaydancecenter.com/",
+        address: "New York, NY, USA",
+        googleMapLink: "https://www.google.com/maps/place/Broadway+Dance+Center"
+    },
+
+    // Italy
+    {
+        id: 14,
+        name: "Centro d'Arte Sauvage",
+        logoUrl: "../logo_studio/centro_arte_sauvage_studio.png",
+        city: "Milan",
+        country: "Italy",
+        danceStyles: ["Contemporary", "Jazz", "Urban Dance"],
+        singleClassPrice: "18€",
+        instagram: "https://www.instagram.com/centrodartesauvage/",
+        website: "https://www.centrodartesauvage.com/",
+        address: "Milan, Italy",
+        googleMapLink: "https://www.google.com/maps/place/Centro+d'Arte+Sauvage"
+    },
+    {
+        id: 15,
+        name: "Reunion Studio",
+        logoUrl: "../logo_studio/reunion_studio.png",
+        city: "Rome",
+        country: "Italy",
+        danceStyles: ["Contemporary", "Hip-hop", "Urban Dance"],
+        singleClassPrice: "20€",
+        instagram: "https://www.instagram.com/reunionstudio/",
+        website: "https://www.reunionstudio.it/",
+        address: "Rome, Italy",
+        googleMapLink: "https://www.google.com/maps/place/Reunion+Studio"
+    },
+    // South Korea
+    {
+        id: 16,
+        name: "Eighty Eight Studio",
+        logoUrl: "../logo_studio/eighty_eight_studio.jpg",
+        city: "Seoul",
+        country: "South Korea",
+        danceStyles: ["K-Pop", "Hip-hop", "Urban Dance"],
+        singleClassPrice: "15000₩",
+        instagram: "https://www.instagram.com/eighteightstudio/",
+        website: "https://www.eighteightstudio.com/",
+        address: "Seoul, South Korea",
+        googleMapLink: "https://www.google.com/maps/place/Eight+Eight+Studio"
+    },
+
+    // UK
+    {
+        id: 17,
+        name: "Playground London",
+        logoUrl: "../logo_studio/playground_london_studio.png",
+        city: "London",
+        country: "UK",
+        danceStyles: ["Hip-hop", "Commercial", "Freestyle"],
+        singleClassPrice: "£15",
+        instagram: "https://www.instagram.com/playgroundlondon/",
+        website: "https://www.playgroundlondon.com/",
+        address: "London, UK",
+        googleMapLink: "https://www.google.com/maps/place/Playground+London"
+    },
+
+    // Russia
+    {
+        id: 18,
+        name: "MDC NRG",
+        logoUrl: "../logo_studio/mdc_nrg_studio.png",
+        city: "Moscow",
+        country: "Russia",
+        danceStyles: ["Hip-hop", "Contemporary", "Jazz Funk"],
+        singleClassPrice: "800₽",
+        instagram: "https://www.instagram.com/mdcnrg/",
+        website: "https://www.mdcnrg.ru/",
+        address: "Moscow, Russia",
+        googleMapLink: "https://www.google.com/maps/place/MDC+NRG"
+    },
+
+    // Belgium
+    {
+        id: 19,
+        name: "Let's Dance Studio",
+        logoUrl: "../logo_studio/lets_dance_studio.png",
+        city: "Brussels",
+        country: "Belgium",
+        danceStyles: ["Hip-hop", "Jazz", "Ballet"],
+        singleClassPrice: "18€",
+        instagram: "https://www.instagram.com/letsdancestudio/",
+        website: "https://www.letsdancestudio.be/",
+        address: "Brussels, Belgium",
+        googleMapLink: "https://www.google.com/maps/place/Let's+Dance+Studio"
     }
-]
+];
