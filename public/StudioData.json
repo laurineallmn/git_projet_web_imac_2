@@ -2,7 +2,7 @@
     "items": [{
             "id": 1,
             "name": "Lax Studio",
-            "loroUrl": "../logo_studio/lax_studio.png",
+            "logoUrl": "../logo_studio/lax_studio.png",
             "city": "Paris",
             "country": "France",
             "danceStyles": ["Hip-hop", "Breakdance", "House", "Afro", "Street-Jazz", "Dance Hall", "Heals"],
@@ -15,7 +15,7 @@
         {
             "id": 2,
             "name": "Studio Harmonic",
-            "loroUrl": "../logo_studio/studio_harmonic.png",
+            "logoUrl": "../logo_studio/studio_harmonic.png",
             "city": "Paris",
             "country": "France",
             "danceStyles": ["Contemporary", "Ballet", "Jazz", "Hip-hop", "Afro", "Street-Jazz", "Dance Hall", "Heals"],
@@ -28,7 +28,7 @@
         {
             "id": 3,
             "name": "Dancefloor Paris",
-            "loroUrl": "../logo_studio/dancefloor_studio.png",
+            "logoUrl": "../logo_studio/dancefloor_studio.png",
             "city": "Paris",
             "country": "France",
             "danceStyles": ["Hip-hop", "Contemporary", "Ballet", "Jazz"],
@@ -41,7 +41,7 @@
         {
             "id": 4,
             "name": "Le Centre des Arts Vivants",
-            "loroUrl": "https://www.lecentredesarts.com/",
+            "logoUrl": "https://www.lecentredesarts.com/",
             "city": "Paris",
             "country": "France",
             "danceStyles": ["Ballet", "Jazz", "Hip-hop", "Ballroom dance"],
@@ -54,7 +54,7 @@
         {
             "id": 5,
             "name": "Dance Perfect",
-            "loroUrl": "../logo_studio/dance_perfect_studio.jpeg",
+            "logoUrl": "../logo_studio/dance_perfect_studio.jpeg",
             "city": "Prague",
             "country": "Czech Republic",
             "danceStyles": ["Hip-hop", "Salsa", "Ballet", "Modern dance"],
@@ -67,7 +67,7 @@
         {
             "id": 6,
             "name": "Harmony Dance",
-            "loroUrl": "../logo_studio/harmony_dance_studio.png",
+            "logoUrl": "../logo_studio/harmony_dance_studio.png",
             "city": "Prague",
             "country": "Czech Republic",
             "danceStyles": ["Ballet", "Jazz", "Hip-hop", "Contemporary"],
@@ -80,7 +80,7 @@
         {
             "id": 7,
             "name": "Tanzgeist Karlsruhe",
-            "loroUrl": "../logo_studio/tanzgeist_karlsruhe_studio.png",
+            "logoUrl": "../logo_studio/tanzgeist_karlsruhe_studio.png",
             "city": "Karlsruhe",
             "country": "Germany",
             "danceStyles": ["Hip-hop", "Jazz", "Ballet", "Contemporary"],
@@ -93,7 +93,7 @@
         {
             "id": 8,
             "name": "One Million Studio",
-            "loroUrl": "../logo_studio/1million_studio.png",
+            "logoUrl": "../logo_studio/1million_studio.png",
             "city": "Shanghai",
             "country": "China",
             "danceStyles": ["Hip-hop", "Urban dance"],
@@ -106,7 +106,7 @@
         {
             "id": 9,
             "name": "Phoenix Dance Studio",
-            "loroUrl": "../logo_studio/phoenix_dance_studio.png",
+            "logoUrl": "../logo_studio/phoenix_dance_studio.png",
             "city": "Beijing",
             "country": "China",
             "danceStyles": ["Hip-hop", "K-Pop", "Contemporary"],
@@ -119,7 +119,7 @@
         {
             "id": 10,
             "name": "The Playground LA",
-            "loroUrl": "../logo_studio/playground_LA_studio.png",
+            "logoUrl": "../logo_studio/playground_LA_studio.png",
             "city": "Los Angeles",
             "country": "USA",
             "danceStyles": ["Hip-hop", "Commercial", "Freestyle"],
@@ -132,7 +132,7 @@
         {
             "id": 11,
             "name": "Millennium Dance Complex",
-            "loroUrl": "../logo_studio/millenium_dance_complex_studio.jpg",
+            "logoUrl": "../logo_studio/millenium_dance_complex_studio.jpg",
             "city": "Los Angeles",
             "country": "USA",
             "danceStyles": ["Hip-hop", "Jazz", "Contemporary", "K-Pop"],
@@ -145,7 +145,7 @@
         {
             "id": 12,
             "name": "Flying Steps Academy",
-            "loroUrl": "../logo_studio/flying_steps_academy_studio.png",
+            "logoUrl": "../logo_studio/flying_steps_academy_studio.png",
             "city": "Berlin",
             "country": "Germany",
             "danceStyles": ["Breakdance", "Hip-hop", "Popping"],
@@ -158,7 +158,7 @@
         {
             "id": 13,
             "name": "Broadway Dance Center",
-            "loroUrl": "../logo_studio/broadway_dance_center_studio.png",
+            "logoUrl": "../logo_studio/broadway_dance_center_studio.png",
             "city": "New York",
             "country": "USA",
             "danceStyles": ["Hip-hop", "Ballet", "Jazz", "Tap Dance"],
@@ -171,7 +171,7 @@
         {
             "id": 14,
             "name": "Centro d'Arte Sauvage",
-            "loroUrl": "../logo_studio/centro_arte_sauvage_studio.png",
+            "logoUrl": "../logo_studio/centro_arte_sauvage_studio.png",
             "city": "Milan",
             "country": "Italy",
             "danceStyles": ["Contemporary", "Jazz", "Urban Dance"],
@@ -184,7 +184,7 @@
         {
             "id": 15,
             "name": "Reunion Studio",
-            "loroUrl": "../logo_studio/reunion_studio.png",
+            "logoUrl": "../logo_studio/reunion_studio.png",
             "city": "Rome",
             "country": "Italy",
             "danceStyles": ["Contemporary", "Hip-hop", "Urban Dance"],
@@ -197,7 +197,7 @@
         {
             "id": 16,
             "name": "Eight Eight Studio",
-            "loroUrl": "../logo_studio/eighty_eight_studio.jpg",
+            "logoUrl": "../logo_studio/eighty_eight_studio.jpg",
             "city": "Seoul",
             "country": "South Korea",
             "danceStyles": ["K-Pop", "Hip-hop", "Urban Dance"],
@@ -210,7 +210,7 @@
         {
             "id": 17,
             "name": "Playground London",
-            "loroUrl": "../logo_studio/playground_london_studio.png",
+            "logoUrl": "../logo_studio/playground_london_studio.png",
             "city": "London",
             "country": "UK",
             "danceStyles": ["Hip-hop", "Commercial", "Freestyle"],
@@ -223,7 +223,7 @@
         {
             "id": 18,
             "name": "MDC NRG",
-            "loroUrl": "../logo_studio/mdc_nrg_studio.png",
+            "logoUrl": "../logo_studio/mdc_nrg_studio.png",
             "city": "Moscow",
             "country": "Russia",
             "danceStyles": ["Hip-hop", "Contemporary", "Jazz Funk"],
@@ -236,7 +236,7 @@
         {
             "id": 19,
             "name": "Let's Dance Studio",
-            "loroUrl": "../logo_studio/lets_dance_studio.png",
+            "logoUrl": "../logo_studio/lets_dance_studio.png",
             "city": "Brussels",
             "country": "Belgium",
             "danceStyles": ["Hip-hop", "Jazz", "Ballet"],

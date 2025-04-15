@@ -1,24 +1,65 @@
-import StudioCard from './components/StudioCard.jsx'
+import StudioCard from './components/StudioCard'
 import Header from './components/header.jsx'
 import './App.css'
-import danceStudiosDataset from './studiodata.js'
-import getItems from './services/api.js'
-import {useState} from "react";
+// import danceStudiosDataset from './studiodata.js'
+import getStudioData from './services/api'
+// import {useState} from "react";
+import {useState, useEffect} from "react";
 
-// export default function App() {
-//   return <main>Hello World</main>
-// }
-getItems()
+
+// getStudioData()
 
 export default function App(){
   // const data = danceStudiosDataset
+  ///////////test connxion a serveur mini////////////
+  ///////////Demander achatgpt ///////////////
+  //////revoir use state, use memo, use effect
+  ////////////////////////////////:
+  // const [studioData, setStudioData] = useState([]); //on utilise un use state
+  // const [items, getItems]
+  ///////////////////////////
+  ////resoudre ces lignes pour mini serveur
+  // useEffect(()=>{
+  //   const fetchData() = async () => {
+  //     const data = await getData();
+  //     setStudioData(data);
+  //   }
+  //   fetchItems();
+  // },[])
+  //////////////////////////
+  //////// const [studioData, setStudioData] = useState([])
+
+  /////// useEffect(() => {
+  ////////   const fetchData = async () => {
+  ///////     const data = await getStudioData()
+  //////     setStudioData(data.items) // Attention à bien accéder à la propriété "items"
+  //////   }
+
+  //////   fetchData()
+  ////// }, [])
+
+  const [studioData, setStudioData] = useState([]);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const data = await getStudioData(); // appel à l'API
+        setStudioData(data); // ou juste "data" selon la forme de la réponse
+      } catch (error) {
+        console.error("Erreur lors du chargement des studios :", error);
+      }
+    };
+
+    fetchData();
+  }, []);
+
   return (
     <div>
     <Header/>
 
       <div id="dance-studio-gallery">
         <h1>Danse</h1>
-        {danceStudiosDataset.map((studio)=>(
+        {studioData.map((studio)=>(
         // <div id="studio-card">
           
           <StudioCard
@@ -29,11 +70,10 @@ export default function App(){
           country={studio.country}   //ville="Paris"
           danseStyles={studio.danceStyles}
           priceCourse={studio.singleClassPrice}
-          // website=
           address={studio.address}
-          
-          
-          // mapGoogle = {studio.mapGoogle}
+          instagram = {studio.instagram}
+          website = {studio.website}
+          mapGoogle = {studio.googleMapLink}
           />
         
         // </div> 
@@ -44,20 +84,3 @@ export default function App(){
 }
 
 
-
-// export default function App(){
-//   return (
-//       <div id="dance-card">
-//         <img 
-//         src = "../../../LOGO/name.png"
-//        alt =danse/>
-//         <div id="description-dance-studio">
-//           <h3>LAX Studio</h3>
-//           <p className="name-dance-studio">Lax Dance Studio</p>
-//           <p className="place-dance-studio">Paris</p>
-
-//         </div>
-//         />
-//       </div>
-//   );
-// }

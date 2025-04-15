@@ -1,5 +1,5 @@
 
-// import './Header.css'
+import './header.css'
 
 export default function Header(){
     return (
