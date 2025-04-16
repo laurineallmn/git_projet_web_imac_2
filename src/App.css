@@ -1,19 +1,23 @@
 /* #dance-studio-gallery {
-    width: 20vw;
     display: flex;
-    flex-direction: column;
-    background-color: rgb(170, 100, 235);
-    border-radius: 1em;
-    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    max-width: 100vw;
 } */
 
+body {
+    background-color: rgb(118, 63, 168);
+}
 
-/* #dance-studio-gallery {
-width: 200px;
-  height: 200px;
-  display: flex;
-  flex-direction: column;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-  overflow: hidden;
-  margin: 10px;} */
+#dance-studio-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    /* Permet aux cartes de passer à la ligne */
+    justify-content: center;
+    /* Centre les cartes horizontalement */
+    align-items: flex-start;
+    /* Aligne les cartes en haut de la ligne */
+    width: 100vw;
+    max-width: 100vw;
+}
