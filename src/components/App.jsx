@@ -1,8 +1,8 @@
-import StudioCard from './components/StudioCard'
-import Header from './components/header.jsx'
+import StudioCard from './StudioCard'
+import Header from './header.jsx'
 import './App.css'
 // import danceStudiosDataset from './studiodata.js' //si j'utilise pas le mini serveur
-import getStudioData from './services/api'
+import getStudioData from '../services/api'
 
 import {useState, useEffect, useMemo} from "react";
 

@@ -1,6 +1,7 @@
-import './about_us.css'
+// import './aboutUs.css'
+import Header from './header.jsx'
 
-export default function Aboutus(){
+export default function AboutUs(){
     return (
         <div>
             <Header/>

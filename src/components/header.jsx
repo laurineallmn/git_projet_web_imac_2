@@ -1,12 +1,13 @@
 
 import './header.css'
+import { Link } from 'react-router-dom'
 
 export default function Header(){
     return (
         <div id="nav-barre">
-            <a href="main.jsx"><h3>HOME</h3></a>
-            <a href="about_us.jsx"><h3>ABOUT US</h3></a> 
-            <a href="contact."><h3>CONTACT</h3></a>    
+            <Link to="/"><h3>HOME</h3></Link>
+            <Link to="/aboutus"><h3>ABOUT US</h3></Link>
+            <Link to="/contact"><h3>CONTACT</h3></Link>   
         </div>
     );
 }

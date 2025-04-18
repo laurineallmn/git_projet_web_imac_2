@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./StudioCard.css"
+import Header from './header.jsx'
 
 export default function StudioCard({photo, name, address, city, country, priceCourse, danseStyles, instagram, website, googleMapLink}){
     const [showDetails, setShowDetails] = useState(false);
