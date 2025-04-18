@@ -154,6 +154,18 @@ export default function App(){
         : prev.filter(style => style !== value)
     );
   }
+
+  //fonction qui remet à zéro les filtres
+  function resetAllFilters() {
+    setSearch("");
+    setMaxPrice(priceSliderMax);
+    setSelectedStyles([]);
+    setStudiosSortBy(""); 
+
+    document.querySelectorAll('#checkbox-container input').forEach(checkbox => {
+      checkbox.checked = false;
+    });
+  }
   ///////////////////////////
 
   return (
@@ -188,23 +200,28 @@ export default function App(){
           </div>
           
           <div class="line">
-            <div id="sort-by-options">
-              <label>Sort by :</label>
-              <select  value={studiosSortBy} onChange={(event) => setStudiosSortBy(event.target.value)}>
-                {/* on appelle la fonction setStudioSortBy */}
-                <option value="">Sort by...</option>
-                <option value="name">Name</option>
-                <option value="country">Country</option>
-                <option value="city">City</option>
-              </select>
+            <div id="second-filter-container">
+              <div id="sort-by-options">
+                <label>Sort by :</label>
+                <select  value={studiosSortBy} onChange={(event) => setStudiosSortBy(event.target.value)}>
+                  {/* on appelle la fonction setStudioSortBy */}
+                  <option value="">Sort by...</option>
+                  <option value="name">Name</option>
+                  <option value="country">Country</option>
+                  <option value="city">City</option>
+                </select>
+              </div>
+            {/* bouton reset */}
+            <button id="reset-button" onClick={resetAllFilters}>Reset all filters</button>
             </div>
           </div>
+
           <div id="checkbox-container" class="line">
             <p><b>Select dance styles you're interested in : </b></p>
             {/* boucle pour afficher tous les style de danse qui apparaissent dans les données du mini serveur  */}
             {allDanceStyles.map(style => (
-            <label key={style}>
-            <input type="checkbox" id="checkbox-clicked" value={style} onChange={handleStyleCheckbox} />
+            <label key={style} className={selectedStyles.includes(style) ? "checkbox-clicked" : ""}>
+            <input type="checkbox" value={style} onChange={handleStyleCheckbox} />
             {style}
             </label>
             ))}

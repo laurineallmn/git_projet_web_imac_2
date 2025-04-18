@@ -11,7 +11,7 @@ export default function Contact(){
                 <div className="line">
                     <h5>SOCIAL MEDIA</h5>
                     <p>INSTAGRAM : <b>wherance</b></p>
-                    <p>TIKTOK : <b>wherance_offical</b> </p>
+                    <p>TIKTOK : <b>wherance_official</b> </p>
                     <p>X : <b>wherance_off</b></p>
                 </div>
                 <div className="line">
