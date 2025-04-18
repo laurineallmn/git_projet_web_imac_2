@@ -167,9 +167,9 @@ export default function App(){
             <input type="text" value={search} onChange={(event) => setSearch(event.target.value)} placeholder=" 🔍 Search a dance studio"/>
             {/* curseur de prix  */}
             {uniqueCountry && (
-              <div>
+              <div id="slider-container">
                 <label>Prix maximum :</label>
-                <input id="slider-input"
+                <input id="slider"
                   type="range"
                   min="0"
                   max={priceSliderMax}
@@ -181,24 +181,26 @@ export default function App(){
             )}
             {/* si les studio ne sont pas du même pays  */}
             {!uniqueCountry && (
-              <p style={{ fontStyle: 'italic', fontSize: "0.6em", marginTop : "0"}}>
+              <p id='search-indication'>
                 Type a country name to select your price range.
               </p>
             )}
           </div>
           
-          <div id="sort-by-options">
-            <label htmlFor="dog-sort">Sort by :</label>
-            <select id="dog-sort" value={studiosSortBy} onChange={(event) => setStudiosSortBy(event.target.value)}>
-              {/* on appelle la fonction setStudioSortBy */}
-              <option value="">Sort by...</option>
-              <option value="name">Name</option>
-              <option value="country">Country</option>
-              <option value="city">City</option>
-            </select>
+          <div class="line">
+            <div id="sort-by-options">
+              <label>Sort by :</label>
+              <select  value={studiosSortBy} onChange={(event) => setStudiosSortBy(event.target.value)}>
+                {/* on appelle la fonction setStudioSortBy */}
+                <option value="">Sort by...</option>
+                <option value="name">Name</option>
+                <option value="country">Country</option>
+                <option value="city">City</option>
+              </select>
+            </div>
           </div>
-          <div id="checkbox-container">
-            <p>Select dance styles you're interested in : </p>
+          <div id="checkbox-container" class="line">
+            <p><b>Select dance styles you're interested in : </b></p>
             {/* boucle pour afficher tous les style de danse qui apparaissent dans les données du mini serveur  */}
             {allDanceStyles.map(style => (
             <label key={style}>

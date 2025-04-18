@@ -19,11 +19,11 @@ export default function StudioCard({photo, name, address, city, country, priceCo
                 </button>
                 {showDetails && (   //Si showDetails est true, alors on affiche ce qui est après &&
                 <div id="hidden-details">
-                    <p>{danseStyles.join(", ")}</p>
-                    <p>{priceCourse}</p>
-                    <p>Instagram:<a href={instagram} target="_blank" rel="noopener noreferrer">{instagram}</a></p>
-                    <p>Website:<a href={website} target="_blank" rel="noopener noreferrer">{website}</a></p>
-                    <p>{address}</p>
+                    <p><b>Dance styles: </b>{danseStyles.join(", ")}</p>
+                    <p><b>Price :</b> {priceCourse}</p>
+                    <p><b>Instagram: </b><a href={instagram} target="_blank" rel="noopener noreferrer">{instagram}</a></p>
+                    <p><b>Website: </b><a href={website} target="_blank" rel="noopener noreferrer">{website}</a></p>
+                    <p><b>Address: </b>{address}</p>
                     {/* <p>{googleMapLink}</p> */}
                     <iframe
                     // src={mapGoogle.replace("https://www.google.com/maps/place/", "https://maps.google.com/maps?q=") + "&t=&z=13&ie=UTF8&iwloc=&output=embed"}

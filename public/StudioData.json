@@ -113,7 +113,7 @@
             "singleClassPrice": "100¥",
             "instagram": "https://www.instagram.com/phoenixdancelab/",
             "website": "https://www.phenixdancestudio.com/",
-            "address": "Beijing, China",
+            "address": "103 Dongge Rd, Qingxiu District, Nanning, Guangxi, China, 530023",
             "googleMapLink": "https://www.google.com/maps/place/Phenix+Dance+Studio"
         },
         {
@@ -125,8 +125,8 @@
             "danceStyles": ["Hip-hop", "Commercial", "Freestyle"],
             "singleClassPrice": "$25",
             "instagram": "https://www.instagram.com/theplaygroundla/",
-            "website": "https://www.theplaygroundla.com/",
-            "address": "Los Angeles, CA, USA",
+            "website": "https://www.playgroundla.dance/",
+            "address": "7375 Melrose Ave, Los Angeles, CA 90046",
             "googleMapLink": "https://www.google.com/maps/place/The+Playground+LA"
         },
         {
@@ -138,8 +138,8 @@
             "danceStyles": ["Hip-hop", "Jazz", "Contemporary", "Heels", "K-Pop"],
             "singleClassPrice": "$30",
             "instagram": "https://www.instagram.com/mdcdance/",
-            "website": "https://www.mdcdance.com/",
-            "address": "Los Angeles, CA, USA",
+            "website": "https://www.millenniumdancecomplex.com/",
+            "address": "11528 Ventura Blvd, Studio City, CA 91604",
             "googleMapLink": "https://www.google.com/maps/place/Millennium+Dance+Complex"
         },
         {
@@ -151,8 +151,8 @@
             "danceStyles": ["Breakdance", "Hip-hop", "Popping"],
             "singleClassPrice": "25€",
             "instagram": "https://www.instagram.com/flyingstepsacademy/",
-            "website": "https://www.flyingstepsacademy.com/",
-            "address": "Berlin, Germany",
+            "website": "https://flying-steps.academy/",
+            "address": "Lobeckstr. 30-35 · 10969 Berlin",
             "googleMapLink": "https://www.google.com/maps/place/Flying+Steps+Academy"
         },
         {
@@ -165,7 +165,7 @@
             "singleClassPrice": "$22",
             "instagram": "https://www.instagram.com/bdcnyc/",
             "website": "https://www.broadwaydancecenter.com/",
-            "address": "New York, NY, USA",
+            "address": "322 W 45th St, New York, NY 10036",
             "googleMapLink": "https://www.google.com/maps/place/Broadway+Dance+Center"
         },
         {
@@ -178,7 +178,7 @@
             "singleClassPrice": "18€",
             "instagram": "https://www.instagram.com/centro_darte_sauvage/",
             "website": "https://www.centrodartesauvage.com/",
-            "address": "Milan, Italy",
+            "address": "48 Via Privata Trasimeno - 20128 Milano (MI)",
             "googleMapLink": "https://www.google.com/maps/place/Centro+d'Arte+Sauvage"
         },
         {
@@ -191,20 +191,20 @@
             "singleClassPrice": "20€",
             "instagram": "https://www.instagram.com/reunionstudio/",
             "website": "https://www.reunionstudio.it/",
-            "address": "Rome, Italy",
+            "address": "Via Sestio Menas 94 - 00175 Roma (Lazio)",
             "googleMapLink": "https://www.google.com/maps/place/Reunion+Studio"
         },
         {
             "id": 16,
-            "name": "Eight Eight Studio",
+            "name": "Eighty Eight Studio",
             "logoUrl": "../logo_studio/eighty_eight_studio.jpg",
-            "city": "Seoul",
-            "country": "South Korea",
+            "city": "Los Angeles",
+            "country": "USA",
             "danceStyles": ["K-Pop", "Hip-hop"],
             "singleClassPrice": "15000₩",
             "instagram": "https://www.instagram.com/eightyeightstudiosla/",
-            "website": "https://www.eighteightstudio.com/",
-            "address": "Seoul, South Korea",
+            "website": "https://www.theeightyeightstudios.com/",
+            "address": "11105 Weddington Street, North Hollywood, CA 91601 ",
             "googleMapLink": "https://www.google.com/maps/place/Eight+Eight+Studio"
         },
         {
@@ -216,8 +216,8 @@
             "danceStyles": ["Hip-hop", "Commercial", "Freestyle"],
             "singleClassPrice": "£15",
             "instagram": "https://www.instagram.com/theplaygroundlondon/",
-            "website": "https://www.playgroundlondon.com/",
-            "address": "London, UK",
+            "website": "https://playgroundlondon.dance/",
+            "address": "8 Manningtree Street, London E1 1LG",
             "googleMapLink": "https://www.google.com/maps/place/Playground+London"
         },
         {
@@ -229,8 +229,8 @@
             "danceStyles": ["Hip-hop", "Contemporary", "Jazz Funk"],
             "singleClassPrice": "800₽",
             "instagram": "https://www.instagram.com/mdcnrg.pro/",
-            "website": "https://www.mdcnrg.ru/",
-            "address": "Moscow, Russia",
+            "website": "https://nrg-style.ru/",
+            "address": "ул. 1-я Бухвостова 12/11, корп. 11 (территория Ниидар), Москва, 107076",
             "googleMapLink": "https://www.google.com/maps/place/MDC+NRG"
         },
         {
@@ -242,8 +242,8 @@
             "danceStyles": ["Hip-hop", "Jazz", "Ballet"],
             "singleClassPrice": "18€",
             "instagram": "https://www.instagram.com/letsdancestudiobruxelles/",
-            "website": "https://www.letsdancestudio.be/",
-            "address": "Brussels, Belgium",
+            "website": "https://let-s-dance.be/",
+            "address": "Rue Vieille Foulerie 41, 4671 Blegny",
             "googleMapLink": "https://www.google.com/maps/place/Let's+Dance+Studio"
         },
         {
