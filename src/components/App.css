@@ -21,7 +21,8 @@ body {
 #gallery-options {
     padding: 0rem 5rem;
     max-width: 80%;
-    margin: 0 auto;
+    margin: auto;
+    margin-top: 2rem;
 }
 
 #search-input {
@@ -69,13 +70,8 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    /* margin: auto; */
+    margin-top: 1rem;
     padding: 1rem;
-}
-
-#sort-by-options {
-    /* text-align: center; */
-    margin-top: 1em;
 }
 
 #sort-by-options select {

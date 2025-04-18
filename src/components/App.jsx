@@ -199,7 +199,7 @@ export default function App(){
             )}
           </div>
           
-          <div class="line">
+          <div className="line">
             <div id="second-filter-container">
               <div id="sort-by-options">
                 <label>Sort by :</label>
@@ -216,7 +216,7 @@ export default function App(){
             </div>
           </div>
 
-          <div id="checkbox-container" class="line">
+          <div id="checkbox-container" className="line">
             <p><b>Select dance styles you're interested in : </b></p>
             {/* boucle pour afficher tous les style de danse qui apparaissent dans les données du mini serveur  */}
             {allDanceStyles.map(style => (
