@@ -1,5 +1,6 @@
 import StudioCard from './StudioCard'
 import Header from './header.jsx'
+import Footer from './footer.jsx'
 import './App.css'
 // import danceStudiosDataset from './studiodata.js' //si j'utilise pas le mini serveur
 import getStudioData from '../services/api'
@@ -160,7 +161,6 @@ export default function App(){
     <Header/>
 
       <div>
-        <h1>WHERANCE</h1>
       {/* ////////// form recherche tri ///////////// */}
         <div id="gallery-options">
           <div id="search-input">
@@ -181,7 +181,7 @@ export default function App(){
             )}
             {/* si les studio ne sont pas du même pays  */}
             {!uniqueCountry && (
-              <p style={{ fontStyle: 'italic', fontSize: "0.6em", color: "white", marginTop : "0"}}>
+              <p style={{ fontStyle: 'italic', fontSize: "0.6em", marginTop : "0"}}>
                 Type a country name to select your price range.
               </p>
             )}
@@ -236,6 +236,7 @@ export default function App(){
         )}
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }

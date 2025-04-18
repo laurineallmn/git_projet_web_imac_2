@@ -7,7 +7,7 @@
             "country": "France",
             "danceStyles": ["Hip-hop", "Breakdance", "House", "Heels", "African Dance", "Street Jazz", "Dancehall", "Contemporary"],
             "singleClassPrice": "15€",
-            "instagram": "https://www.instagram.com/laxstudio/",
+            "instagram": "https://www.instagram.com/lax_studio/",
             "website": "https://www.laxstudio.fr/",
             "address": "10 Rue de la Fontaine au Roi, 75011 Paris, France",
             "googleMapLink": "https://www.google.com/maps/place/Lax+Studio"
@@ -20,7 +20,7 @@
             "country": "France",
             "danceStyles": ["Contemporary", "Modern Jazz", "Ballet", "Jazz", "Tap Dance", "Hip-hop", "Heels", "African Dance", "Dancehall", "Street Jazz", "Floorwork"],
             "singleClassPrice": "18€",
-            "instagram": "https://www.instagram.com/studioharmonic/",
+            "instagram": "https://www.instagram.com/studio_harmonic/",
             "website": "https://www.studioharmonic.fr/",
             "address": "5 Passage des Taillandiers, 75011 Paris, France",
             "googleMapLink": "https://www.google.com/maps/place/Studio+Harmonic"
@@ -46,7 +46,7 @@
             "country": "France",
             "danceStyles": ["Ballet", "Jazz", "Hip-hop", "Street Jazz", "Floorwork"],
             "singleClassPrice": "17€",
-            "instagram": "https://www.instagram.com/lecentredesarts/",
+            "instagram": "https://www.instagram.com/centre_des_arts_vivants/",
             "website": "https://www.lecentredesarts.com/",
             "address": "4 Rue Bréguet, 75011 Paris, France",
             "googleMapLink": "https://www.google.com/maps/place/Le+Centre+des+Arts+Vivants"
@@ -59,7 +59,7 @@
             "country": "Czech Republic",
             "danceStyles": ["Hip-hop", "Ballet", "Modern Jazz"],
             "singleClassPrice": "250 CZK",
-            "instagram": "https://www.instagram.com/danceperfectprague/",
+            "instagram": "https://www.instagram.com/dance_perfect_praha/",
             "website": "https://www.danceperfect.cz/",
             "address": "Národní 25, 110 00 Prague, Czech Republic",
             "googleMapLink": "https://www.google.com/maps/place/Dance+Perfect"
@@ -72,7 +72,7 @@
             "country": "Czech Republic",
             "danceStyles": ["Ballet", "Jazz", "Hip-hop", "Contemporary"],
             "singleClassPrice": "230 CZK",
-            "instagram": "https://www.instagram.com/harmonydanceprague/",
+            "instagram": "https://www.instagram.com/harmonydance_studio/",
             "website": "https://www.harmonydance.cz/",
             "address": "Dlouhá 33, 110 00 Prague, Czech Republic",
             "googleMapLink": "https://www.google.com/maps/place/Harmony+Dance"
@@ -85,7 +85,7 @@
             "country": "Germany",
             "danceStyles": ["Hip-hop", "Jazz", "Ballet", "African Dance", "Contemporary"],
             "singleClassPrice": "15€",
-            "instagram": "https://www.instagram.com/tanzgeistkarlsruhe/",
+            "instagram": "https://www.instagram.com/tanzgeist_karlsruhe/",
             "website": "https://www.tanzgeist.de/",
             "address": "Ludwig-Erhard-Allee 3, 76131 Karlsruhe, Germany",
             "googleMapLink": "https://www.google.com/maps/place/Tanzgeist+Karlsruhe"
@@ -98,7 +98,7 @@
             "country": "South Korea",
             "danceStyles": ["Hip-hop", "Heels", "Contemporary", "Locking"],
             "singleClassPrice": "120¥",
-            "instagram": "https://www.instagram.com/1milliondance/?hl=en",
+            "instagram": "https://www.instagram.com/1milliondance",
             "website": "https://www.1milliondance.com/",
             "address": "33 Ttukseom-ro 13-gil, Seongdong-gu, Seoul, Corée du Sud",
             "googleMapLink": "https://www.google.com/maps/place/One+Million+Dance+Studio"
@@ -107,11 +107,11 @@
             "id": 9,
             "name": "Phoenix Dance Studio",
             "logoUrl": "../logo_studio/phoenix_dance_studio.png",
-            "city": "Beijing",
+            "city": "Shanghai",
             "country": "China",
             "danceStyles": ["Hip-hop", "K-Pop", "Contemporary"],
             "singleClassPrice": "100¥",
-            "instagram": "https://www.instagram.com/phenixdancestudio/",
+            "instagram": "https://www.instagram.com/phoenixdancelab/",
             "website": "https://www.phenixdancestudio.com/",
             "address": "Beijing, China",
             "googleMapLink": "https://www.google.com/maps/place/Phenix+Dance+Studio"
@@ -163,7 +163,7 @@
             "country": "USA",
             "danceStyles": ["Hip-hop", "Ballet", "Jazz", "Tap Dance"],
             "singleClassPrice": "$22",
-            "instagram": "https://www.instagram.com/bdcdance/",
+            "instagram": "https://www.instagram.com/bdcnyc/",
             "website": "https://www.broadwaydancecenter.com/",
             "address": "New York, NY, USA",
             "googleMapLink": "https://www.google.com/maps/place/Broadway+Dance+Center"
@@ -176,7 +176,7 @@
             "country": "Italy",
             "danceStyles": ["Contemporary", "Jazz", "Hip-hop"],
             "singleClassPrice": "18€",
-            "instagram": "https://www.instagram.com/centrodartesauvage/",
+            "instagram": "https://www.instagram.com/centro_darte_sauvage/",
             "website": "https://www.centrodartesauvage.com/",
             "address": "Milan, Italy",
             "googleMapLink": "https://www.google.com/maps/place/Centro+d'Arte+Sauvage"
@@ -202,7 +202,7 @@
             "country": "South Korea",
             "danceStyles": ["K-Pop", "Hip-hop"],
             "singleClassPrice": "15000₩",
-            "instagram": "https://www.instagram.com/eighteightstudio/",
+            "instagram": "https://www.instagram.com/eightyeightstudiosla/",
             "website": "https://www.eighteightstudio.com/",
             "address": "Seoul, South Korea",
             "googleMapLink": "https://www.google.com/maps/place/Eight+Eight+Studio"
@@ -215,7 +215,7 @@
             "country": "UK",
             "danceStyles": ["Hip-hop", "Commercial", "Freestyle"],
             "singleClassPrice": "£15",
-            "instagram": "https://www.instagram.com/playgroundlondon/",
+            "instagram": "https://www.instagram.com/theplaygroundlondon/",
             "website": "https://www.playgroundlondon.com/",
             "address": "London, UK",
             "googleMapLink": "https://www.google.com/maps/place/Playground+London"
@@ -228,7 +228,7 @@
             "country": "Russia",
             "danceStyles": ["Hip-hop", "Contemporary", "Jazz Funk"],
             "singleClassPrice": "800₽",
-            "instagram": "https://www.instagram.com/mdcnrg/",
+            "instagram": "https://www.instagram.com/mdcnrg.pro/",
             "website": "https://www.mdcnrg.ru/",
             "address": "Moscow, Russia",
             "googleMapLink": "https://www.google.com/maps/place/MDC+NRG"
@@ -241,7 +241,7 @@
             "country": "Belgium",
             "danceStyles": ["Hip-hop", "Jazz", "Ballet"],
             "singleClassPrice": "18€",
-            "instagram": "https://www.instagram.com/letsdancestudio/",
+            "instagram": "https://www.instagram.com/letsdancestudiobruxelles/",
             "website": "https://www.letsdancestudio.be/",
             "address": "Brussels, Belgium",
             "googleMapLink": "https://www.google.com/maps/place/Let's+Dance+Studio"

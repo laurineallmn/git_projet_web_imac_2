@@ -1,7 +1,28 @@
 body {
     margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Helvetica', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 0.9em;
+}
+
+#nav-barre h3 {
+    background-color: #D01DE0;
+    padding: 1vw;
+    margin: 0;
+    border-radius: 1em;
+    overflow: hidden;
+    box-shadow: black;
+}
+
+#nav-barre h3:hover {
+    color: white;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+#nav-barre h1:hover {
+    color: black;
+    cursor: pointer;
+    transition: color 0.3s;
 }
 
 #nav-barre {
@@ -10,17 +31,17 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: rgb(213, 171, 251);
 }
 
-a {
-    margin: auto;
-    color: black;
-}
-
-a:hover {
-    color: white;
-    cursor: pointer;
+h1 {
+    margin-left: 3vw;
+    /* margin-top: 0; */
+    /* margin-bottom: 0; */
+    color: #D01DE0;
+    /* rgba(255, 255, 255, 0.521) #218380*/
+    font-family: 'Liquidity', 'Segoe UI', Tahoma, Verdana, sans-serif;
+    /* font-family: 'Surfing Capital', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-size: 5em;
 }
 
 

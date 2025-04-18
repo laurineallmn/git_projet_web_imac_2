@@ -1,4 +1,4 @@
-// import './aboutUs.css'
+import './aboutUs.css'
 import Header from './header.jsx'
 
 export default function AboutUs(){
@@ -8,7 +8,7 @@ export default function AboutUs(){
             <div id="about-us">
                 <h3>About us</h3>
                 <p>
-                    Wherance is a platform designed for dancers who love to travel. Whether you're a beginner or a professional, Wherance helps you easily discover dance studios offering open classes wherever you are in the world. Our mission is to connect the global dance community by making it simple to find, compare, and access studios by style, location, and atmosphere — all in one place.
+                    Wherance is a platform designed for <span>dancers</span> who love to <span>travel</span>. Whether you're a beginner or a professional, Wherance helps you easily <span>discover dance studios</span> offering open classes wherever you are <span>in the world</span>. Our mission is to connect the <span>global dance </span> by making it simple to <span>find, compare, and access</span> studios by <span>style, location, and atmosphere</span>. All in one place.
                 </p>
             </div>
         </div>

@@ -5,15 +5,17 @@ body {
 }
 
 #studio-card {
-    width: 13vw;
+    width: 15vw;
     display: flex;
     flex-direction: column;
-    background-color: rgb(188, 137, 235);
-    /*rgb(170, 100, 235)*/
+    background-color: #fbfbfb;
+    /* border-color: #D01DE0; */
+    /* border-width: 1vw; */
+    /*rgb(170, 100, 235)////*/
     border-radius: 1em;
     overflow: hidden;
     box-shadow: black;
-    margin: 2vw;
+    margin: 1vw;
     padding: 1vw;
 }
 
@@ -36,9 +38,25 @@ iframe {
     /* height=560; */
 }
 
-button:hover {
-    background-color: rgb(60, 38, 80);
+button {
+    background-color: #D01DE0;
     color: white;
+}
+
+button:hover {
+    background-color: #eeeeee;
+    color: black;
     cursor: pointer;
     transition: background-color 0.5s ease-out, color 0.5s ease-out;
+}
+
+a {
+    margin: auto;
+    color: black;
+    Text-decoration: none
+}
+
+a:hover {
+    color: #D01DE0;
+    cursor: pointer;
 }

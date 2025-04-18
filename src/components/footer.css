@@ -1,0 +1,18 @@
+#footer-container {
+    margin-top: 3vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: white; */
+    background-color: #D01DE0;
+}
+
+#footer-left-container {
+    margin: 1vw;
+}
+
+#footer-right-container {
+    margin: 1vw;
+}
