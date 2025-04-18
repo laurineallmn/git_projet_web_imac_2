@@ -21,8 +21,8 @@ export default function StudioCard({photo, name, address, city, country, priceCo
               <div id="hidden-details">
                 <p>{danseStyles.join(", ")}</p>
                 <p>{priceCourse}</p>
-                <a href="{instagram}"><p>{instagram}</p></a>
-                <a href="{instagram}"><p>{website}</p></a>
+                <a href="{instagram}" target="_blank" rel="noopener noreferrer">{instagram}</a>
+                <a href="{website}" target="_blank" rel="noopener noreferrer">{website}</a>
                 <p>{address}</p>
                 {/* <p>{googleMapLink}</p> */}
                 <iframe

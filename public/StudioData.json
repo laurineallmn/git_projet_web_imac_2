@@ -5,7 +5,7 @@
             "logoUrl": "../logo_studio/lax_studio.png",
             "city": "Paris",
             "country": "France",
-            "danceStyles": ["Hip-hop", "Breakdance", "House", "Heels", "African Dance", "Street-Jazz", "Dancehall", "Contemporary"],
+            "danceStyles": ["Hip-hop", "Breakdance", "House", "Heels", "African Dance", "Street Jazz", "Dancehall", "Contemporary"],
             "singleClassPrice": "15€",
             "instagram": "https://www.instagram.com/laxstudio/",
             "website": "https://www.laxstudio.fr/",
@@ -18,7 +18,7 @@
             "logoUrl": "../logo_studio/studio_harmonic.png",
             "city": "Paris",
             "country": "France",
-            "danceStyles": ["Contemporary", "Modern Jazz", "Ballet", "Jazz", "Tap dance", "Hip-hop", "Heels", "African Dance", "Dancehall", "Street-Jazz", "Floorwork"],
+            "danceStyles": ["Contemporary", "Modern Jazz", "Ballet", "Jazz", "Tap Dance", "Hip-hop", "Heels", "African Dance", "Dancehall", "Street Jazz", "Floorwork"],
             "singleClassPrice": "18€",
             "instagram": "https://www.instagram.com/studioharmonic/",
             "website": "https://www.studioharmonic.fr/",
@@ -44,7 +44,7 @@
             "logoUrl": "../logo_studio/le_centre_des_arts_vivants_studio.png",
             "city": "Paris",
             "country": "France",
-            "danceStyles": ["Ballet", "Jazz", "Hip-hop", "Ballroom dance", "Floorwork"],
+            "danceStyles": ["Ballet", "Jazz", "Hip-hop", "Street Jazz", "Floorwork"],
             "singleClassPrice": "17€",
             "instagram": "https://www.instagram.com/lecentredesarts/",
             "website": "https://www.lecentredesarts.com/",
@@ -57,7 +57,7 @@
             "logoUrl": "../logo_studio/dance_perfect_studio.jpeg",
             "city": "Prague",
             "country": "Czech Republic",
-            "danceStyles": ["Hip-hop", "Salsa", "Ballet", "Modern dance"],
+            "danceStyles": ["Hip-hop", "Ballet", "Modern Jazz"],
             "singleClassPrice": "250 CZK",
             "instagram": "https://www.instagram.com/danceperfectprague/",
             "website": "https://www.danceperfect.cz/",
@@ -95,7 +95,7 @@
             "name": "One Million Studio",
             "logoUrl": "../logo_studio/1million_studio.jpg",
             "city": "Seoul",
-            "country": "Korea",
+            "country": "South Korea",
             "danceStyles": ["Hip-hop", "Heels", "Contemporary", "Locking"],
             "singleClassPrice": "120¥",
             "instagram": "https://www.instagram.com/1milliondance/?hl=en",
@@ -200,7 +200,7 @@
             "logoUrl": "../logo_studio/eighty_eight_studio.jpg",
             "city": "Seoul",
             "country": "South Korea",
-            "danceStyles": ["K-Pop", "Hip-hop", "Urban Dance"],
+            "danceStyles": ["K-Pop", "Hip-hop"],
             "singleClassPrice": "15000₩",
             "instagram": "https://www.instagram.com/eighteightstudio/",
             "website": "https://www.eighteightstudio.com/",
@@ -260,8 +260,8 @@
             "googleMapLink": "https://www.google.com/maps/place/Farrays+Center"
         },
         {
-            "id": 20,
-            "name": "Farray's Center",
+            "id": 21,
+            "name": "La Urban Dance Factory",
             "logoUrl": "../logo_studio/la_urban_dance_factory_studio.png",
             "city": "Barcelona",
             "country": "Spain",
@@ -272,6 +272,5 @@
             "address": "C/ ROSSEND ARÚS 11-15 seconda PLANTA - SANTS",
             "googleMapLink": "https://www.google.com/maps/place/La+urban+dance+factory"
         }
-
     ]
 }

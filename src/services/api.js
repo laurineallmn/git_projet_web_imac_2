@@ -1,5 +1,5 @@
 export default async function getStudioData() {
-    const response = await fetch("http://localhost:5000/items") //http://localhost:5000/items ///StudioData.json
+    const response = await fetch("http://localhost:5000/items") //http://localhost:5000/items // /StudioData.json
     if (response.status == 200) {
         const data = await response.json()
         console.log(data) //pour voir si ca appelle bien le tableau dans la console de l'inspecteur 
